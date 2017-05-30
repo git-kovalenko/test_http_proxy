@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 let http = require('http');
 let httpProxy = require('http-proxy');
 let proxy = httpProxy.createProxyServer({});

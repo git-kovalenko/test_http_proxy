@@ -1,5 +1,5 @@
 {
-  "name": "http_proxy",
+  "name": "app",
   "version": "1.0.0",
   "description": "simple http proxy",
   "main": "app.js",
@@ -16,10 +16,12 @@
   "author": "Anatoliy Kovalenko",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
     "http-proxy": "^1.16.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "uglify-es": "^3.0.13"
+  },
   "bugs": {
     "url": "https://github.com/git-kovalenko/test_http_proxy/issues"
   },
