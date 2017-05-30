@@ -1,6 +1,6 @@
-###Simple http proxy
+### Simple http proxy
 
-####Installation
+#### Installation
 * Clone from repository https://github.com/git-kovalenko/test_http_proxy.git
 * `$ npm install`
 * `$ node app.js` or `$ node app.min.js`
